@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int a = 10;
+    float b = 3.14;
+    double c = 9.99;
+    char d = 'A';
+    bool e = true;
+
+    cout << a << " " << sizeof(a) << endl;
+    cout << b << " " << sizeof(b) << endl;
+    cout << c << " " << sizeof(c) << endl;
+    cout << d << " " << sizeof(d) << endl;
+    cout << e << " " << sizeof(e) << endl;
+
+    return 0;
+}

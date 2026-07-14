@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int a = 10;
+    float b = a;
+
+    cout << b << endl;
+    cout << a + 2.5 << endl;
+
+    float c = 5.8;
+    cout << (int)c << endl;
+
+    cout << (float)7 / 2 << endl;
+
+    return 0;
+}

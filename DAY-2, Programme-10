@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    cout << 10 + 2 * 5 << endl;
+    cout << (10 + 2) * 5 << endl;
+    cout << 20 / 4 + 3 * 2 << endl;
+    cout << 20 / (4 + 3) * 2 << endl;
+
+    float x = 5.5;
+    cout << 10 + x * 2 << endl;
+
+    return 0;
+}
